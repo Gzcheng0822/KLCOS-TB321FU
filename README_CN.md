@@ -1,5 +1,8 @@
 ## TB321FU GSI 修改版特性说明
 
+[中文](https://github.com/Zhicheng-Gao/KLCOS-TB321FU/blob/main/README_CN.md)
+[English](https://github.com/Zhicheng-Gao/KLCOS-TB321FU/blob/main/README.md)
+
 > ⚙️ *本项目基于 [KLC_OS](https://github.com/LoggingNewMemory/KLC_OS) 修改制作*
 
 ### 系统特性：
