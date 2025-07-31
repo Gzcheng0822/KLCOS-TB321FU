@@ -10,7 +10,7 @@
 * Packed using **EROFS** file system for potentially smoother performance
 * Removed `ph` and `phh` folders
 * Removed all `arm/lib` directories (Snapdragon 8 Gen 3 supports 64-bit only)
-* Replaced `build.prop` with TB321FU version, removed version tags and debug flags to avoid detection as a test build; **ADB disabled by default**
+* Remove most GSI features; Replaced `build.prop` with TB321FU version, removed version tags and debug flags to avoid detection as a test build; **ADB disabled by default**
 * Default font changed to **Smartisan T Hei**, Emoji replaced with **One UI** style, boot animation switched to **Pixel-style (Android 10–12)**
 * Enabled **8GB ZRAM** by default; **fstrim** runs on boot for filesystem trimming
 * Extremely debloated — most pre-installed apps, overlays, themes, even keyboard removed. Only File Manager, Play Store, and Google Core are kept. Final system size: **1.66GB**
