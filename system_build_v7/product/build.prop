@@ -1,0 +1,56 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Lenovo
+ro.product.product.device=TB321FU
+ro.product.product.manufacturer=Lenovo
+ro.product.product.model=TrebleDroid with GApps
+ro.product.product.name=kirby_prc
+ro.product.build.date=Sun Nov 17 11:59:24 UTC 2024
+ro.product.build.date.utc=1731844764
+ro.product.build.fingerprint=Lenovo/kirby_prc/TB321FU:15/AP3A.241105.008/TB321FU_KLCOS_A15_v7:user/release-keys
+ro.product.build.id=AP3A.241105.008
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=TB321FU_KLCOS_A15_v7
+ro.product.build.version.release=15
+ro.product.build.version.release_or_codename=15
+ro.product.build.version.sdk=35
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.build.16k_page.enabled=false
+ro.build.characteristics=device
+ro.product.ab_ota_partitions=system
+ro.product.cpu.pagesize.max=16384
+ro.product.build.no_bionic_page_size_macro=true
+# Value overridden by post_process_props.py. Original value: default
+ro.dalvik.vm.enable_uffd_gc=true
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.notification_sound=pixiedust.ogg
+ro.com.android.dataroaming=true
+persist.wm.extensions.enabled=true
+ro.setupwizard.mode=OPTIONAL
+ro.crypto.metadata_init_delete_all_keys.enabled=false
+persist.wm.extensions.activity_embedding_guard_with_android_15=false
+persist.settings.large_screen_opt.enabled=true
+ro.com.google.acsa=true
+ro.com.google.gmsversion=15_202411
+setupwizard.feature.baseline_setupwizard_enabled=true
+ro.setupwizard.rotation_locked=true
+setupwizard.enable_assist_gesture_training=true
+setupwizard.theme=glif_v4_light
+setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
+setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false
+setupwizard.feature.show_pixel_tos=false
+ro.opa.eligible_device=true
+ro.com.google.clientidbase=android-google
+ro.error.receiver.system.apps=com.google.android.gms
+ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
+ro.support_one_handed_mode=true
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+# end of file
