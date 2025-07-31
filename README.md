@@ -1,7 +1,7 @@
 ## TB321FU GSI Custom Build Features
 
-[中文](https://github.com/Zhicheng-Gao/KLCOS-TB321FU/blob/main/README_CN.md)
-[English](https://github.com/Zhicheng-Gao/KLCOS-TB321FU/blob/main/README.md)
+[中文](https://github.com/Gzcheng/KLCOS-TB321FU/blob/main/README_CN.md)
+[English](https://github.com/Gzcheng/KLCOS-TB321FU/blob/main/README.md)
 
 > ⚙️ *Based on [KLC\_OS](https://github.com/LoggingNewMemory/KLC_OS) with modifications*
 
