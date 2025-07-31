@@ -7,6 +7,7 @@
 
 ### System Features:
 
+* Signed; Could boot directly without disable vbmeta
 * Packed using **EROFS** file system for potentially smoother performance
 * Removed `ph` and `phh` folders
 * Removed all `arm/lib` directories (Snapdragon 8 Gen 3 supports 64-bit only)
