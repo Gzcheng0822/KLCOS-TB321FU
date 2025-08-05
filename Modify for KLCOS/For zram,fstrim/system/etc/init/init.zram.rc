@@ -1,0 +1,29 @@
+on boot
+    wait /dev/block/zram0
+    write /sys/block/zram0/comp_algorithm lz4
+    write /sys/block/zram0/disksize 17179869184
+    mkswap /dev/block/zram0
+    swapon /dev/block/zram0 priority 75
+
+    # 降低 swappiness，避免使用 swap
+    write /proc/sys/vm/swappiness 1
+    write /proc/sys/vm/swap_ratio_enable 0
+
+    # 更保守的 minfree 设置
+    setprop ro.lmk.minfree "18432,23040,27648,32256,36864,41472"
+
+    # 防止 LMKD 误判 swap 空闲
+    setprop ro.lmk.swap_free_low_percentage 0
+    setprop lmkd.reinit 1
+
+    # 调整 LMK aggressiveness
+    setprop ro.lmk.critical_upgrade true
+    setprop ro.lmk.upgrade_pressure 40
+    setprop ro.lmk.downgrade_pressure 60
+    setprop ro.lmk.kill_timeout_ms 5000
+
+    # 调低 min_free_kbytes
+    write /proc/sys/vm/min_free_kbytes 65536
+
+    # 延迟执行 fstrim
+    exec background sh -c "sleep 300 && /system/bin/busybox-private fstrim /data"
