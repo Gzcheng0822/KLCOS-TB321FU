@@ -3,10 +3,6 @@
 # 删除路径列表
 paths=(
     # system/app
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/BasicDreams/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/BookmarkProvider/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/CarrierDefaultApp/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/PartnerBookmarksProvider/"
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/SimAppDialog/"
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/Stk/"
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/Traceur/"
@@ -17,17 +13,10 @@ paths=(
 	"/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/ph/"
 
     # system/priv-app
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/BlockedNumberProvider/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/CallLogBackup/"
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/LiveWallpapersPicker/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/MmsService/"
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/MtkInCallService/"
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/Tag/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/Telecom/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/TelephonyProvider/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/TeleService/"
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/TrebleApp/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/UserDictionaryProvider/"
 
     # 32bit files
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/lib/"
@@ -73,10 +62,6 @@ paths=(
 
     # overlay
     "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/system_ext/overlay/"
-
-    # system_ext/priv-app
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/system_ext/priv-app/CarrierConfig/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/system_ext/priv-app/QuickAccessWallet/"
 )
 
 # 执行删除

@@ -4,7 +4,7 @@ set -e
 
 BASE="/root/DNA/DNA/Errors_KLCOS/KLCOS-A15"
 
-# 1. 删除 overlay 目录下除了白名单以外的文件
+# 1. 删除 overlay 目录下除了白名单和含 telephony 的文件以外的文件
 overlay_dir="$BASE/system/product/overlay"
 keep_list=(
   "CompanionDeviceManager__device__auto_generated_characteristics_rro.apk"
@@ -37,11 +37,13 @@ keep_list=(
 echo "Cleaning $overlay_dir..."
 for file in "$overlay_dir"/*; do
   filename=$(basename "$file")
-  if [[ ! " ${keep_list[*]} " =~ " $filename " ]]; then
+  
+  if [[ ! " ${keep_list[*]} " =~ " $filename " && "$filename" != *telephony* ]]; then
     echo "Deleting $file"
     rm -rf "$file"
   fi
 done
+
 
 # 2. 删除 audio/ui 除了指定文件
 ui_dir="$BASE/system/product/media/audio/ui"
@@ -64,16 +66,17 @@ for file in "$ui_dir"/*; do
   fi
 done
 
-# 3. 删除 system_ext/app 中除 AccessibilityMenu 外的目录
+# 3. 删除 system_ext/app 中除 AccessibilityMenu 和 WAPPushManager 外的目录
 app_dir="$BASE/system/system_ext/app"
 
 echo "Cleaning $app_dir..."
 for dir in "$app_dir"/*; do
   dirname=$(basename "$dir")
-  if [[ "$dirname" != "AccessibilityMenu" ]]; then
+  if [[ "$dirname" != "AccessibilityMenu" && "$dirname" != "WAPPushManager" ]]; then
     echo "Deleting $dir"
     rm -rf "$dir"
   fi
 done
 
 echo "Cleanup completed."
+
