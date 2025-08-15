@@ -1,0 +1,3 @@
+on boot
+    # 延迟执行 fstrim
+    exec background sh -c "sleep 300 && /system/bin/busybox-private fstrim /data"
