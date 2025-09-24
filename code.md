@@ -13,10 +13,10 @@ rm -rf /root/DNA/DNA/Errors_KLCOS/KLCOS-A15/*
 mount -o loop /root/DNA/DNA/Errors_KLCOS/002_DNA/KLCOS-A15.img klcos_system/ && \
 sudo mkfs.erofs -zlz4 KLCOS_A15_erfos_raw_unsigned.img klcos_system/ && \
 cp KLCOS_A15_erfos_raw_unsigned.img KLCOS_A15_erfos_raw_signed.img && \
-python3 ~/avb/avbtool.py add_hashtree_footer \
+python3 avb/avbtool.py add_hashtree_footer \
   --image KLCOS_A15_erfos_raw_signed.img\
   --partition_name system \
-  --partition_size 1872756736 \
+  --partition_size 3623878656 \
   --key system_key.pem \
   --algorithm SHA256_RSA4096 \
   --hash_algorithm sha256 \

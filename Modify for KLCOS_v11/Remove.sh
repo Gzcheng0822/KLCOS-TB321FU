@@ -29,6 +29,7 @@ paths=(
 
     # product/priv-app
     "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/priv-app/GoogleDialer/"
+	"/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/priv-app/PrebuiltBugle/"
 
     # product/media/audio
     "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/media/audio/alarms/"
