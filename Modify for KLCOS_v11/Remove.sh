@@ -3,66 +3,36 @@
 # 删除路径列表
 paths=(
     # system/app
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/SimAppDialog/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/Stk/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/Traceur/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/NoCutoutOverlay.apk"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/app/Traceur/"
 
     # phh
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/phh/"
-	"/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/ph/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/phh/"
+	"/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/ph/"
 
     # system/priv-app
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/LiveWallpapersPicker/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/MtkInCallService/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/Tag/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/TrebleApp/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/MtkInCallService/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/TrebleApp/"
 
     # 32bit files
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/lib/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/framework/arm"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/framework/oat/arm"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/framework/oat/arm"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/system_ext/framework/oat/arm"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/app/PrintSpooler/lib"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/BuiltInPrintService/lib"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/lib/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/framework/arm"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/framework/oat/arm"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/framework/oat/arm"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/system_ext/framework/oat/arm"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/app/PrintSpooler/lib"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/priv-app/BuiltInPrintService/lib"
 
     # product/app
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/arcore/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/CalculatorGooglePrebuilt/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/CalendarGooglePrebuilt/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/Camera2/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/Chrome/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/Chrome-Stub/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/GoogleContacts/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/GoogleTTS/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/LatinIMEGooglePrebuilt/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/Maps/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/Music/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/Photos/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/PhotoTable/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/PrebuiltDeskClockGoogle/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/PrebuiltGmail/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/talkback/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/TrichromeLibrary/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/TrichromeLibrary-Stub/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/CalculatorGooglePrebuilt/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/GoogleContacts/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/app/talkback/"
 
     # product/priv-app
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/priv-app/GoogleDialer/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/priv-app/PrebuiltBugle/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/priv-app/WellbeingPrebuilt/"
-	"/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/priv-app/AndroidAutoStubPrebuilt/"
-
-    # product/fonts
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/fonts/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/priv-app/GoogleDialer/"
 
     # product/media/audio
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/media/audio/alarms/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/media/audio/notifications/"
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/product/media/audio/ringtones/"
-
-    # overlay
-    "/root/DNA/DNA/Errors_KLCOS/KLCOS-A15/system/system_ext/overlay/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/media/audio/alarms/"
+    "/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15/system/product/media/audio/notifications/"
 )
 
 # 执行删除

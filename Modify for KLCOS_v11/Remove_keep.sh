@@ -2,7 +2,7 @@
 
 set -e
 
-BASE="/root/DNA/DNA/Errors_KLCOS/KLCOS-A15"
+BASE="/root/KLCOS/DNA/Errors_KLCOS/KLCOS-A15"
 
 # 1. 删除 overlay 目录下除了白名单和含 telephony 的文件以外的文件
 overlay_dir="$BASE/system/product/overlay"
@@ -63,18 +63,6 @@ for file in "$ui_dir"/*; do
   if [[ ! " ${ui_keep_files[*]} " =~ " $filename " ]]; then
     echo "Deleting $file"
     rm -f "$file"
-  fi
-done
-
-# 3. 删除 system_ext/app 中除 AccessibilityMenu 和 WAPPushManager 外的目录
-app_dir="$BASE/system/system_ext/app"
-
-echo "Cleaning $app_dir..."
-for dir in "$app_dir"/*; do
-  dirname=$(basename "$dir")
-  if [[ "$dirname" != "AccessibilityMenu" && "$dirname" != "WAPPushManager" ]]; then
-    echo "Deleting $dir"
-    rm -rf "$dir"
   fi
 done
 
